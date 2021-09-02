@@ -6,7 +6,7 @@ const errorMessage = document.getElementById('error-message');
 const bookContainer = document.getElementById('book-container');
 
 
-
+// add event listener
     searchButton.addEventListener('click', () => { 
        
     ///// preloader added ///// 
