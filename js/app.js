@@ -1,6 +1,12 @@
-const searchInput = document.getElementById('searchInput');
-const searchButton = document.getElementById('searchButton');
+// variable declaration
+const inputField = document.getElementById('input-field');
+const searchButton = document.getElementById('search-button');
+const totalResult = document.getElementById('total-result');
+const errorMessage = document.getElementById('error-message');
+const bookContainer = document.getElementById('book-container');
 
-searchButton.addEventListener('click', function(){
+
+
+searchButton.addEventListener('click', () =>{
     console.log('hello');
 })
